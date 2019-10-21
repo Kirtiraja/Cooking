@@ -16,3 +16,12 @@ var result = liters(gal);
  var cups = parseFloat(prompt("Enter cups:"));
  var result = liters(cups);
   alert(result);
+
+
+  var tabletocup = function(tablespoon) {
+    return tablespoon / 16;
+  };
+
+  var usertablespoon = parseFloat(prompt("Enter tablespoon:"));
+  var result = tabletocup(usertablespoon);
+   alert(result);
